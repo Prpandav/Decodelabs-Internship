@@ -18,6 +18,11 @@ This repository is organized by week. Each folder is a self-contained project wi
 * **Dataset:** Data Science Job Salaries (Global hiring trends & metrics).
 * **Key Achievement:** Developed an end-to-end Supervised Regression pipeline. Engineered categorical features and trained a `RandomForestRegressor` to predict accurate candidate salary estimates based on experience level, remote ratios, and company size.
 
+### Week 3: NLP News Text Classification & Web App
+* **Objective:** Text preprocessing, NLP feature engineering, model comparison, and deployment.
+* **Dataset:** Inshorts News Dataset (Text content & Categories).
+* **Key Achievement:** Processed over 300k rows of text data using regex, built a TF-IDF vectorization pipeline, and trained classification models (Naive Bayes & Logistic Regression). Deployed the winning Logistic Regression model as an interactive `Streamlit` web application.
+
 ## Technology Stack
 * **Language:** Python
 * **Data Manipulation & Cleaning:** Pandas, NumPy
