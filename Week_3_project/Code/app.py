@@ -1,5 +1,6 @@
 import streamlit as st
 import joblib
+import os
 
 # Set page configuration
 st.set_page_config(page_title="AI News Classifier", page_icon="📰")
@@ -8,9 +9,10 @@ st.set_page_config(page_title="AI News Classifier", page_icon="📰")
 # Using @st.cache_resource ensures they are only loaded once, making the app much faster
 @st.cache_resource
 def load_components():
-    model = joblib.load('lr_news_model.pkl')
-    vectorizer = joblib.load('tfidf_vectorizer.pkl')
-    encoder = joblib.load('label_encoder.pkl')
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    model = joblib.load(os.path.join(base_dir, 'lr_news_model.pkl'))
+    vectorizer = joblib.load(os.path.join(base_dir, 'tfidf_vectorizer.pkl'))
+    encoder = joblib.load(os.path.join(base_dir, 'label_encoder.pkl'))
     return model, vectorizer, encoder
 
 try:
