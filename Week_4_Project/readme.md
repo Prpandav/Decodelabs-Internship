@@ -7,7 +7,7 @@ The resulting application allows users to upload complex, multi-page PDF documen
 
 ---
 
-## 🚀 Executive Summary of Tasks
+##  Executive Summary of Tasks
 
 ### Task 1: Document Ingestion & Text Extraction
 To allow the AI to read local files, I engineered a robust document parsing backend:
@@ -36,7 +36,7 @@ I orchestrated the retrieval and generation logic using modern frameworks:
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 ### Dependencies
 Ensure your environment has the following Python libraries installed:

@@ -50,6 +50,7 @@ This project implements a decoupled, hybrid AI architecture to maximize speed, p
 * **Large Language Model (LLM):** Google Gemini 3.5 Flash
 * **Document Processing:** PyPDF2, RecursiveCharacterTextSplitter
 * **Frontend UI:** Streamlit
+* **Live App:** [AI Document Analyst](https://ai-doc-analyst.streamlit.app/)
 
 ## Key Learnings & Engineering Wins
 * Successfully diagnosed and resolved cloud API versioning/deprecation conflicts by pivoting to a decoupled, local-embedding architecture.
