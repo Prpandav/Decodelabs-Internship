@@ -1,0 +1,12 @@
+# UI and Orchestration
+streamlit
+langchain
+langchain-text-splitters
+langchain-community
+# Google Gemini Integration
+langchain-google-genai
+# Vector DB and PDF Processing
+faiss-cpu
+PyPDF2
+sentence-transformers
+python-dotenv
