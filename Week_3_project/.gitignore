@@ -1,0 +1,27 @@
+# Large Data & Archives
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Python Cache & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv/
+env/
+venv/
+
+# Notebook Checkpoints & Logs
+.ipynb_checkpoints/
+*.log
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

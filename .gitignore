@@ -1,4 +1,33 @@
+# Large Data & Archives (Must not exceed GitHub's 100MB limit)
 *.csv
-.env
+*.tsv
+*.tar.gz
+*.rar
+*.7z
+
+# Python Cache & Virtual Environments
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Vector Stores & Logs
 faiss_index/
+*.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE Configurations
+.vscode/
+.idea/
